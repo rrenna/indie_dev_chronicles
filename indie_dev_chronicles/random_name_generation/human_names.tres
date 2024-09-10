@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="NamesDefinition" load_steps=2 format=3 uid="uid://bsm5y7rfjj8o0"]
+
+[ext_resource type="Script" path="res://random_name_generation/names_definition.gd" id="1_ixki8"]
+
+[resource]
+script = ExtResource("1_ixki8")
+first_name_values = "Aldric, Elowen, Cedric, Seraphine, Thalric, Evelyne, Darian, Lysandra, Caelan, Isolde"
+last_names_values = "Ravenwood, Stormrider, Blackthorne, Windraven, Ashford, Hawke, Ironhart, Silvermane, Nightshade, Brightblade"

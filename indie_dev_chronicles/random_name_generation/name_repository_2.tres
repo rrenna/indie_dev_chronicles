@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="NameRepository_2" load_steps=3 format=3 uid="uid://bqrvi0herlrs0"]
+
+[ext_resource type="Resource" uid="uid://ci2pkvhu2tqjb" path="res://random_name_generation/human_names_2.tres" id="1_2k88t"]
+[ext_resource type="Script" path="res://random_name_generation/name_repository_2.gd" id="1_35ylg"]
+
+[resource]
+script = ExtResource("1_35ylg")
+human_names = ExtResource("1_2k88t")

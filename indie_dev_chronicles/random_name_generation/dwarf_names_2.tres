@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="NamesDefinition_2" load_steps=2 format=3 uid="uid://colvoj47mu4sn"]
+
+[ext_resource type="Script" path="res://random_name_generation/names_definition_2.gd" id="1_qw7fx"]
+
+[resource]
+script = ExtResource("1_qw7fx")
+first_name_values = "Thorin, Durgan, Balin, Fundin, Grimgor, Borin, Khargrim, Brogar, Dwalin, Dori"
+last_names_values = "Stonehelm, Ironfist, Oakshield, Deepdelver, Fireforge, Stormaxe, Frostbeard, Thunderfoot, Blackstone, Earthshaper"
+middle_name_values = "“Stonebreaker”, “Grimhelm”, “Ironshield”, “Firebeard”, “Darkhammer”, “Steelbrow”, “Runesmith”, “Deepforge”, “Thunderstone”, “Goldvein”"
+chance_of_middle_name = 0.33

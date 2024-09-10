@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://y72muluh630j"]
+
+[ext_resource type="Script" path="res://random_name_generation/main_0.gd" id="1_06fjy"]
+[ext_resource type="FontFile" uid="uid://c3nu7ihts2tx3" path="res://assets/fonts/Silver.ttf" id="2_5dis8"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_06fjy")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VSplitContainer" type="VSplitContainer" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CenterContainer/VSplitContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_fonts/font = ExtResource("2_5dis8")
+theme_override_font_sizes/font_size = 75
+text = "(No Name)"
+
+[node name="Button" type="Button" parent="CenterContainer/VSplitContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_5dis8")
+theme_override_font_sizes/font_size = 75
+text = "Shuffle"
+
+[connection signal="pressed" from="CenterContainer/VSplitContainer/Button" to="." method="_on_button_pressed"]

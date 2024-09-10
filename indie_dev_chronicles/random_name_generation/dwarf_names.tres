@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="NamesDefinition" load_steps=2 format=3 uid="uid://cj4ftd15bxy2p"]
+
+[ext_resource type="Script" path="res://random_name_generation/names_definition.gd" id="1_rlosc"]
+
+[resource]
+script = ExtResource("1_rlosc")
+first_name_values = "Thorin, Durgan, Balin, Fundin, Grimgor, Borin, Khargrim, Brogar, Dwalin, Dori"
+last_names_values = "Stonehelm, Ironfist, Oakshield, Deepdelver, Fireforge, Stormaxe, Frostbeard, Thunderfoot, Blackstone, Earthshaper"

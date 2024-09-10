@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="NameRepository" load_steps=4 format=3 uid="uid://cdf2xhosctir3"]
+
+[ext_resource type="Resource" uid="uid://cj4ftd15bxy2p" path="res://random_name_generation/dwarf_names.tres" id="1_73aeo"]
+[ext_resource type="Script" path="res://random_name_generation/name_repository.gd" id="1_e444t"]
+[ext_resource type="Resource" uid="uid://bsm5y7rfjj8o0" path="res://random_name_generation/human_names.tres" id="2_fc528"]
+
+[resource]
+script = ExtResource("1_e444t")
+human_names = ExtResource("2_fc528")
+dwarf_names = ExtResource("1_73aeo")
