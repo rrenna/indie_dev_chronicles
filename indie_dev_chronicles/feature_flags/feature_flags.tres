@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="FeatureFlags" load_steps=2 format=3 uid="uid://dbdd8tig2uii0"]
+
+[ext_resource type="Script" path="res://feature_flags/autoload_feature_flags.gd" id="1_il17r"]
+
+[resource]
+script = ExtResource("1_il17r")
+experimental_feature = true

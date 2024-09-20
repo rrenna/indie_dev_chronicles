@@ -6,6 +6,9 @@ var last_names: Array = ["Ravenwood", "Stormrider", "Blackthorne", "Windraven", 
 
 @onready var name_label: Label = %Label
 
+func _ready() -> void:
+	pass #var experimental_feature = Flags.experimental_feature
+
 func _on_button_pressed() -> void:
 	name_label.text = generate()
 

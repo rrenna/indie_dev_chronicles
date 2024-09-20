@@ -1,5 +1,4 @@
 extends Node
-# ternary conditional operators and not clause
 
 @export var names_definition: NamesDefinition
 @onready var name_label: Label = %Label
